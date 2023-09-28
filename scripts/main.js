@@ -1,5 +1,8 @@
 
 // Personalized welcome message code
+const myHeading = document.querySelector("h1");
+myHeading.textContent = "Hello world!";
+
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
